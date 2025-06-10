@@ -38,28 +38,29 @@ The *Hearmony* is a deep learning-based project that identifies human emotions f
 ### 🔹 Personal Insights 
 ![Personal Recommendations](static/6.png)
 
-## 🛠 Tech Stack
 
-### 🧩 Machine Learning & Deep Learning
+### 🛠 Tech Stack
+
+#### 🧩 Machine Learning & Deep Learning
 - Python 3.9+
 - TensorFlow / Keras
 - NumPy, OpenCV, Scikit-learn
 - Librosa for audio feature extraction
 
-### 📊 Visualization & Analysis
+#### 📊 Visualization & Analysis
 - Matplotlib for spectrogram visualization
 - Custom CSS styling for enhanced UI
 
-### 💻 Web Interface
+#### 💻 Web Interface
 - Streamlit for modern web-based GUI
 - SoundDevice for audio recording
 - Real-time audio processing
 
 ---
 
-## 🚀 How to Run the Project
+### 🚀 How to Run the Project
 
-### ✅ Requirements
+#### ✅ Requirements
 
 Install dependencies using:
 
@@ -67,7 +68,7 @@ bash
 pip install -r requirements.txt
 
 
-### Required Libraries:
+#### Required Libraries:
 
 streamlit
 numpy
@@ -99,17 +100,10 @@ pillow
 
 ---
 
-## 💡 Supported Emotions
+## Supported Emotions
 
-| Label | Description | Emoji |
-|-------|-------------|-------|
-| Calm | Relaxed, composed | 😌 |
-| Happy | Joyful, excited | 😄 |
-| Sad | Down, gloomy | 😢 |
-| Angry | Irritated, furious | 😠 |
-| Fearful | Nervous, anxious | 😱 |
-| Disgust | Repulsed, displeased | 🤢 |
-| Surprised | Shocked, astonished | 😲 |
+##### 😌 Calm 😄 Happy 😢 Sad 😠 Angry 😱 Fearful 🤢 Disgust 😲 Surprised 
+#### 
 
 ---
 
@@ -144,16 +138,6 @@ pillow
 
 ---
 
-## 🧪 Testing Considerations
-
-- 🧠 *Functional Testing*: Verified predictions match expected emotional inputs
-- 🔐 *Security*: No sensitive data stored permanently; temporary files cleaned
-- 📉 *Performance Testing*: Model optimized for real-time prediction
-- ♻ *Regression Testing*: Continuous validation ensures stable functionality
-- 🎯 *Accuracy Testing*: Cross-validation on multiple emotion datasets
-
----
-
 ## 🎯 Use Cases
 
 - *Mental Health Awareness*: Self-monitoring emotional states
@@ -161,36 +145,3 @@ pillow
 - *Personal Wellness*: Daily emotional check-ins with actionable suggestions
 - *Research*: Emotion recognition system for psychological studies
 - *Educational*: Demonstration of ML/DL in emotion recognition
-
----
-
-## 🚀 Future Enhancements
-
-- [ ] User authentication and session management
-- [ ] Historical emotion tracking and trend analysis
-- [ ] Integration with wearable devices
-- [ ] Multi-language emotion recognition
-- [ ] Advanced emotion categories (stress, excitement, etc.)
-- [ ] Cloud deployment for scalability
-
----
-
-## Acknowledgments
-
-- *Datasets*: RAVDESS, TESS, CREMA-D, SAVEE for emotion speech data
-- *Libraries*: Librosa for audio processing, TensorFlow for deep learning
-- *Framework*: Streamlit for rapid web application development
-- *Visualization*: Matplotlib for spectrogram generation
-- *Audio*: SoundDevice for real-time audio recording
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-
-
-Built with ❤ for emotional wellness and mental health awareness
